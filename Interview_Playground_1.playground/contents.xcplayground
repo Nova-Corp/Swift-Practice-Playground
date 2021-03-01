@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Get API Call Practice'/>
+        <page name='Post Form Data Practice'/>
+        <page name='Optional Chaining Practice'/>
+        <page name='String Operation'/>
+        <page name='Map Practice'/>
+        <page name='Auto Closure Practice'/>
+        <page name='Optional Delegate Practice'/>
+        <page name='Escaping Practice'/>
+        <page name='Inout Practice'/>
+        <page name='NSOperation Queue Practice'/>
+        <page name='GCD Practice'/>
+        <page name='Set Practice'/>
+        <page name='Difference Between Class and Struct'/>
+    </pages>
+</playground>
