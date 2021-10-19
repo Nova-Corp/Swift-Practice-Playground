@@ -14,5 +14,12 @@
         <page name='GCD Practice'/>
         <page name='Set Practice'/>
         <page name='Difference Between Class and Struct'/>
+        <page name='UserDefaults Using Property Unwrapper'/>
+        <page name='Enum Practice'/>
+        <page name='Test Case Practice'/>
+        <page name='Result Builder Practice'/>
+        <page name='DispatchQueue Practice'/>
+        <page name='Generic Protocol'/>
+        <page name='Try Error Handling'/>
     </pages>
 </playground>

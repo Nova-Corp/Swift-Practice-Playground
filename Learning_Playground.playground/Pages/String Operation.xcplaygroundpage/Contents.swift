@@ -2,6 +2,39 @@
 
 import Foundation
 
+
+
+
+
+
+
+
+
+
+var description: [String] = ["This", "Thi","This is first", "ThisNewss desc This is", "Olddd is gold"]
+let keyWord = "This"
+
+description = description.filter{
+    if !(String($0.prefix(keyWord.count)) == keyWord) {
+        return true
+    }
+    return false
+}
+
+print(description)
+
+
+
+
+
+
+
+
+
+
+
+
+
 let firstString = "asdfgh"
 let secondString = "12345678"
 let thirdString = "qwer"

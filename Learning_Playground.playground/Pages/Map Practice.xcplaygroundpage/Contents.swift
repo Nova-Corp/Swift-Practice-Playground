@@ -2,6 +2,41 @@
 
 import Foundation
 
+let dic = [
+    "movie" : ["Billa", "Kuruvi"],
+    "likes" : ["Billa", "Sura"],
+    "commands" : "<null>"
+] as [String : Any]
+
+let filteredValue = dic.filter {value in
+    if let newValue = value.value as? String {
+        if newValue == "<null>"{
+            return false
+        }
+    }
+    return true
+}.compactMap{$0.value}
+//let filteredValue1 = dic.compactMapValues {$0}
+
+print(filteredValue)
+//print(filteredValue1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 struct Customer {
     let name: String?
     let age: Int
