@@ -21,5 +21,9 @@
         <page name='DispatchQueue Practice'/>
         <page name='Generic Protocol'/>
         <page name='Try Error Handling'/>
+        <page name='Dynamic callable'/>
+        <page name='SOLID'/>
+        <page name='NameSpace'/>
+        <page name='Initialization with Literals'/>
     </pages>
 </playground>
